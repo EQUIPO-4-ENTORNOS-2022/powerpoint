@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <p>actividad de gestion de equipos</p>
+    <p>añadir jugador</p>
+    <form action="/action_page.php">
+      <label for="fname">nombre jugador:</label><br>
+      <input type="text" id="fname" name="fname" maxlength="20"><br>
+      <form action="/action_page.php">
+        <label for="birthday">cumpleaños:</label>
+        
+        <input type="date" id="birthday"min="2000-01-02 name="birthday">
+      <p></p>
+      <form action="/action_page.php">
+        <label for="cars">idioma:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">ingles</option>
+          <option value="saab">español</option>
+          <option value="fiat">aleman</option>
+          <option value="audi">frances</option>
+        </select>
+        <p></p>
+        <input type="submit" value="Submit">
+      </form>
+      <p>añadir equipo</p>
+      <form>
+          <form action="/action_page.php">
+            <label for="fname">nombre de quipo:</label><br>
+            <input type="text" id="fname" name="fname" maxlength="20"><br>
+            <label for="quantity">pon una posicion de equipo:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+            
+            <p></p>
+            <input type="submit" value="Submit">
+          </form>
+          <p>añadir jugador a equipo</p>
+          <form action="/action_page.php">
+            
+            <label for="fname">nombre de jugador:</label><br>
+            <input type="text" id="fname" name="fname" maxlength="20"><br>
+            <form action="/action_page.php">
+              <label for="fname">nombre de quipo:</label><br>
+              <input type="text" id="fname" name="fname" maxlength="20"><br>
+              <p></p>
+              <input type="submit" value="Submit">
+            </form>
+          </body>
+            </html>
